@@ -1,0 +1,31 @@
+
+<svg width="48px" height="78px" viewBox="0 0 48 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="48" height="78" rx="8"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Rectangle-2" fill="#FFFFFF" xlink:href="#path-1"></use>
+            <g id="Group-2" mask="url(#mask-2)">
+                <g transform="translate(-41.000000, -33.000000)" id="Rectangle-3">
+                    <rect fill="#F1D71B" transform="translate(80.610173, 32.568542) rotate(225.000000) translate(-80.610173, -32.568542) " x="43.1101731" y="24.0685425" width="75" height="17"></rect>
+                    <rect fill="#00468D" transform="translate(56.568542, 32.568542) rotate(225.000000) translate(-56.568542, -32.568542) " x="19.0685425" y="24.0685425" width="75" height="17"></rect>
+                    <rect fill="#008EC8" transform="translate(32.526912, 32.568542) rotate(225.000000) translate(-32.526912, -32.568542) " x="-4.97308807" y="24.0685425" width="75" height="17"></rect>
+                </g>
+            </g>
+            <g id="Group" mask="url(#mask-2)">
+                <g transform="translate(-36.000000, 45.000000)" id="Rectangle-3">
+                    <rect fill="#91D0F4" transform="translate(104.651804, 32.589358) rotate(225.000000) translate(-104.651804, -32.589358) " x="67.1518036" y="24.0893578" width="75" height="17"></rect>
+                    <rect fill="#52ACD9" transform="translate(80.610173, 32.589358) rotate(225.000000) translate(-80.610173, -32.589358) " x="43.1101731" y="24.0893578" width="75" height="17"></rect>
+                    <rect fill="#277783" transform="translate(56.568542, 32.589358) rotate(225.000000) translate(-56.568542, -32.589358) " x="19.0685425" y="24.0893578" width="75" height="17"></rect>
+                    <rect fill="#0D4537" transform="translate(32.526912, 32.589358) rotate(225.000000) translate(-32.526912, -32.589358) " x="-4.97308807" y="24.0893578" width="75" height="17"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

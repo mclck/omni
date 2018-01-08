@@ -1,0 +1,35 @@
+[
+
+    {
+        "caption": "Заголовок",
+        "fields": [{
+            "field": "title",
+            "caption": "Заголовок"
+        }]
+    },
+    {
+        "caption": "Описание",
+        "fields": [{
+            "field": "description",
+            "caption": "Описание",
+            "inputTVtype": "richtext"
+        }]
+    },
+    {
+        "caption": "Цвет",
+        "fields": [{
+            "field": "color",
+            "caption": "Цвет плитки",
+            "inputTVtype": "colorpicker"
+        }]
+    },
+    {
+        "caption": "Image",
+        "fields": [{
+            "field": "image",
+            "caption": "Image",
+            "inputTV": "imageTV"
+        }]
+    }
+
+]
