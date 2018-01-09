@@ -13,16 +13,14 @@
 <body>
     <header class="header">
         <div class="container">
-            <div class="block-shape">
-                <canvas id="shapesky" class="block-shape-sky" width="100px" height="100px"></canvas>
-                <canvas id="shapetwinkle" class="block-shape-twinkle" width="100px" height="100px"></canvas>
-                <canvas id="shapeshooting" class="block-shape-shooting" width="100px" height="100px"></canvas>
-                <div class="block-shape-mount"></div>
+            <div class="block-cover">
+                <video id="background_video" loop muted></video>
+                <div class="block-cover-overlay"></div>
             </div>
-            <div class="block-navigation">
+            <div class="block-navigation float">
                 <div class="logo">
                     <a href="#" title="Web Peak">
-                        <span>Web Peak</span>
+                        <span>Ever Web</span>
                     </a>
                 </div>
                 <nav class="nav">
@@ -51,11 +49,107 @@
                 </nav>
             </div>
             <div class="block-main-screen">
-                <h1>Интегрированные
-                    <br> Омниканальные Решения</h1>
+                <h1>Создаём сайты, <br> которые зарабатывают</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ab eum itaque aspernatur. Sed rerum asperiores, repudiandae
+                    laboriosam repellat architecto, deserunt voluptatum aspernatur, aut eum quidem. Quam, incidunt? Praesentium,
+                    molestiae?
+                </p>
             </div>
         </div>
     </header>
+    <section class="block-about">
+        <div class="container">
+            <h2 class="block-name">О нас</h2>
+            <div class="block-about-content float">
+                <div class="block-about-content__text">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam quae id repellat, animi consequatur, libero amet commodi temporibus
+                        nemo possimus itaque perferendis rerum consectetur, quia voluptate error! Corrupti, magni architecto.
+                    </p>
+                </div>
+                <div class="block-about-content__numbers">
+                    <ul>
+                        <li>
+                            <div class="num">60+</div>
+                            <div class="name">сотрудников</div>
+                        </li>
+                        <li>
+                            <div class="num">15</div>
+                            <div class="name">лет опыта</div>
+                        </li>
+                        <li>
+                            <div class="num">200</div>
+                            <div class="name">реализованных проекта</div>
+                        </li>
+                        <li>
+                            <div class="num">20</div>
+                            <div class="name">сигарет в пачке</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="services">
+        <div class="container float">
+            <h2 class="block-name">Наши услуги</h2>
+            <div class="services-list float">
+                <div class="services-list__item">
+                    <h3 class="services-list__header">Услуга 1</h3>
+                    <div class="services-list__descr">
+                        Сайты lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem Сайты lorem lorem lorem lorem lorem lorem
+                        lorem lorem lorem lorem lorem lorem lorem
+                    </div>
+                    <div class="services-list__price">
+                        50000
+                    </div>
+                    <a href="#" class="services-list__link">
+                        <span class="services-list__link_text">Заказать</span>
+                    </a>
+                </div>
+                <div class="services-list__item">
+                    <h3 class="services-list__header">Услуга 1</h3>
+                    <div class="services-list__descr">
+                        Сайты lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem Сайты lorem lorem lorem lorem lorem lorem
+                        lorem lorem lorem lorem lorem lorem lorem
+                    </div>
+                    <div class="services-list__price services-list__price_first-grad">
+                        50000
+                    </div>
+                    <a href="#" class="services-list__link">
+                        <span class="services-list__link_text">Заказать</span>
+                    </a>
+                </div>
+                <div class="services-list__item">
+                    <h3 class="services-list__header">Услуга 1</h3>
+                    <div class="services-list__descr">
+                        Сайты lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem Сайты lorem lorem lorem lorem lorem lorem
+                        lorem lorem lorem lorem lorem lorem lorem
+                    </div>
+                    <div class="services-list__price services-list__price_second-grad">
+                        50000
+                    </div>
+                    <a href="#" class="services-list__link">
+                        <span class="services-list__link_text">Заказать</span>
+                    </a>
+                </div>
+                <div class="services-list__item">
+                    <h3 class="services-list__header">Услуга 1</h3>
+                    <div class="services-list__descr">
+                        Сайты lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem Сайты lorem lorem lorem lorem lorem lorem
+                        lorem lorem lorem lorem lorem lorem lorem
+                    </div>
+                    <div class="services-list__price services-list__price_third-grad">
+                        50000
+                    </div>
+                    <a href="#" class="services-list__link">
+                        <span class="services-list__link_text">Заказать</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="how">
         <div class="dots">
             <svg class="dots__shape" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid"
@@ -127,136 +221,81 @@
             </ul>
         </div>
     </div>
-    <div class="services">
-        <div class="container float">
-            <h2 class="block-name">Наши услуги</h2>
-            <div class="services-list float">
-                <div class="services-list__item">
-                    <h3 class="services-list__header">Услуга 1</h3>
-                    <div class="services-list__descr">
-                        Сайты lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
-                    </div>
-                    <a href="#" class="services-list__link">
-                        <span class="services-list__link_text">Заказать</span>
-                    </a>
-                    <div class="services-list__ico">
-                        <i class="fa fa-television" aria-hidden="true"></i>
-                    </div>
-                </div>
-                <div class="services-list__item">
-                    <h3 class="services-list__header">Услуга 1</h3>
-                    <div class="services-list__descr">
-                        Продвижение lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
-                    </div>
-                    <a href="#" class="services-list__link">
-                        <span class="services-list__link_text">Заказать</span>
-                    </a>
-                    <div class="services-list__ico services-list__ico_first-grad">
-                        <i class="fa fa-bar-chart" aria-hidden="true"></i>
-                    </div>
-                </div>
-                <div class="services-list__item">
-                    <h3 class="services-list__header">Услуга 1</h3>
-                    <div class="services-list__descr">
-                        Реклама lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
-                    </div>
-                    <a href="#" class="services-list__link">
-                        <span class="services-list__link_text">Заказать</span>
-                    </a>
-                    <div class="services-list__ico services-list__ico_second-grad">
-                        <i class="fa fa-paper-plane" aria-hidden="true"></i>
-                    </div>
-                </div>
-                <div class="services-list__item">
-                    <h3 class="services-list__header">Услуга 1</h3>
-                    <div class="services-list__descr">
-                        Корпоративный дизайн lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
-                    </div>
-                    <a href="#" class="services-list__link">
-                        <span class="services-list__link_text">Заказать</span>
-                    </a>
-                    <div class="services-list__ico services-list__ico_third-grad">
-                        <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="portfolio">
         <div class="container float">
             <h2 class="block-name">Портфолио</h2>
             <div class="portfolio-list float">
-                    <div class="portfolio-list__item" style="background-image: url(img/attachment.png)">
-                        <a href="" class="portfolio-list__link">
-                            <i class="fa fa-external-link" aria-hidden="true"></i>
-                        </a>
-                        <a href="" class="portfolio-list__gallery">
-                            <i class="fa fa-camera" aria-hidden="true"></i>
-                        </a>      
-                        <div class="portfolio-list__text portfolio-list__text">
-                            <div class="portfolio-list__text portfolio-list__text_header">
-                                Название сайта
-                            </div>
-                            Описание какого то сайта
-                        </div>   
-                    </div>
-                    <div class="portfolio-list__item" style="background-image: url(img/attachment.png)">
-                        <a href="" class="portfolio-list__link">
-                            <i class="fa fa-external-link" aria-hidden="true"></i>
-                        </a>
-                        <a href="" class="portfolio-list__gallery">
-                            <i class="fa fa-camera" aria-hidden="true"></i>
-                        </a>      
-                        <div class="portfolio-list__text portfolio-list__text">
-                            <div class="portfolio-list__text portfolio-list__text_header">
-                                Название сайта
-                            </div>
-                            Описание какого то сайта
-                        </div>   
-                    </div>
-                    <div class="portfolio-list__item" style="background-image: url(img/attachment.png)">
-                        <a href="" class="portfolio-list__link">
-                            <i class="fa fa-external-link" aria-hidden="true"></i>
-                        </a>
-                        <a href="" class="portfolio-list__gallery">
-                            <i class="fa fa-camera" aria-hidden="true"></i>
-                        </a>      
-                        <div class="portfolio-list__text portfolio-list__text">
-                            <div class="portfolio-list__text portfolio-list__text_header">
-                                Название сайта
-                            </div>
-                            Описание какого то сайта
-                        </div>   
-                    </div>
-                    <div class="portfolio-list__item" style="background-image: url(img/attachment.png)">
-                        <a href="" class="portfolio-list__link">
-                            <i class="fa fa-external-link" aria-hidden="true"></i>
-                        </a>
-                        <a href="" class="portfolio-list__gallery">
-                            <i class="fa fa-camera" aria-hidden="true"></i>
-                        </a>      
-                        <div class="portfolio-list__text portfolio-list__text">
-                            <div class="portfolio-list__text portfolio-list__text_header">
-                                Название сайта
-                            </div>
-                            Описание какого то сайта
-                        </div>   
-                    </div>
-                    <div class="portfolio-list__item" style="background-image: url(img/attachment.png)">
-                        <a href="" class="portfolio-list__link">
-                            <i class="fa fa-external-link" aria-hidden="true"></i>
-                        </a>
-                        <a href="" class="portfolio-list__gallery">
-                            <i class="fa fa-camera" aria-hidden="true"></i>
-                        </a>      
-                        <div class="portfolio-list__text portfolio-list__text">
-                            <div class="portfolio-list__text portfolio-list__text_header">
-                                Название сайта
-                            </div>
-                            Описание какого то сайта
-                        </div>   
+                <div class="portfolio-list__item" style="background-image: url(img/attachment.png)">
+                    <a href="" class="portfolio-list__link">
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                    </a>
+                    <a href="" class="portfolio-list__gallery">
+                        <i class="fa fa-camera" aria-hidden="true"></i>
+                    </a>
+                    <div class="portfolio-list__text portfolio-list__text">
+                        <div class="portfolio-list__text portfolio-list__text_header">
+                            Название сайта
+                        </div>
+                        Описание какого то сайта
                     </div>
                 </div>
+                <div class="portfolio-list__item" style="background-image: url(img/attachment.png)">
+                    <a href="" class="portfolio-list__link">
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                    </a>
+                    <a href="" class="portfolio-list__gallery">
+                        <i class="fa fa-camera" aria-hidden="true"></i>
+                    </a>
+                    <div class="portfolio-list__text portfolio-list__text">
+                        <div class="portfolio-list__text portfolio-list__text_header">
+                            Название сайта
+                        </div>
+                        Описание какого то сайта
+                    </div>
+                </div>
+                <div class="portfolio-list__item" style="background-image: url(img/attachment.png)">
+                    <a href="" class="portfolio-list__link">
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                    </a>
+                    <a href="" class="portfolio-list__gallery">
+                        <i class="fa fa-camera" aria-hidden="true"></i>
+                    </a>
+                    <div class="portfolio-list__text portfolio-list__text">
+                        <div class="portfolio-list__text portfolio-list__text_header">
+                            Название сайта
+                        </div>
+                        Описание какого то сайта
+                    </div>
+                </div>
+                <div class="portfolio-list__item" style="background-image: url(img/attachment.png)">
+                    <a href="" class="portfolio-list__link">
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                    </a>
+                    <a href="" class="portfolio-list__gallery">
+                        <i class="fa fa-camera" aria-hidden="true"></i>
+                    </a>
+                    <div class="portfolio-list__text portfolio-list__text">
+                        <div class="portfolio-list__text portfolio-list__text_header">
+                            Название сайта
+                        </div>
+                        Описание какого то сайта
+                    </div>
+                </div>
+                <div class="portfolio-list__item" style="background-image: url(img/attachment.png)">
+                    <a href="" class="portfolio-list__link">
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                    </a>
+                    <a href="" class="portfolio-list__gallery">
+                        <i class="fa fa-camera" aria-hidden="true"></i>
+                    </a>
+                    <div class="portfolio-list__text portfolio-list__text">
+                        <div class="portfolio-list__text portfolio-list__text_header">
+                            Название сайта
+                        </div>
+                        Описание какого то сайта
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="ups float">
@@ -265,12 +304,15 @@
             <img src="img/ups.jpg" alt="">
         </div>
         <div class="ups-text">
-            Какое то предложение Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod neque id animi adipisci corporis repudiandae, quidem eligendi molestias quia ipsam, nostrum porro obcaecati nam illum qui possimus incidunt quo quibusdam?
+            Какое то предложение Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod neque id animi adipisci corporis repudiandae,
+            quidem eligendi molestias quia ipsam, nostrum porro obcaecati nam illum qui possimus incidunt quo quibusdam?
         </div>
     </div>
     <footer class="footer">
-        <script src="js/script.js"></script>
+
     </footer>
+    <script src="js/libs/bideo.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
